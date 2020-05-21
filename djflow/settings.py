@@ -15,6 +15,7 @@ ALLOWED_HOSTS = settings['SECURITY']['ALLOWED_HOSTS']
 DATABASES = settings['DB']
 
 MIDDLEWARE = [
+    'tenant_schemas.middleware.TenantMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
