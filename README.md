@@ -2,6 +2,16 @@
 
 Control de flujo de de ingresos y egresos para negocios
 
+# Vista previa
+
+<div align="center">
+  <img src="img/1.png">
+</div>
+
+<div align="center">
+  <img src="img/2.png">
+</div>
+
 # Instalación
 
 Crear un ambiente virtual y activarlo
