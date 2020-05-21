@@ -5,6 +5,7 @@ from .core.json_settings import get_settings
 from .core.staticfiles import *
 from .core.mediafiles import *
 from .core.mailserver import *
+from .core.databases import *
 
 settings = get_settings()
 
@@ -44,3 +45,4 @@ TEMPLATES = [
 WSGI_APPLICATION = 'djflow.wsgi.application'
 AUTH_PASSWORD_VALIDATORS = settings['AUTH_PASSWORD_VALIDATORS']
 LOGIN_URL = '/security/login/'
+TENANT_MODEL = 'tenant.Client'

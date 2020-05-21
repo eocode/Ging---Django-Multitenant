@@ -62,6 +62,8 @@ Listo! Esto debe ser todo lo necesario para que tengan corriendo el proyecto en 
 ```python
 python manage.py runserver
 ```
+# Crear usuarios Tenant
+python manage.py tenant_command createsuperuser
 
 # Como contribuir
 

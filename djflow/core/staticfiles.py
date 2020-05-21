@@ -2,6 +2,9 @@ import os
 
 __STATIC_PATH = os.path.dirname(os.path.dirname(__file__))
 
+DEFAULT_FILE_STORAGE = (
+    'tenant_schemas.storage.TenantFileSystemStorage'
+)
 
 STATIC_URL = '/static/'
 
